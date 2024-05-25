@@ -16,11 +16,13 @@ public class DbController {
 
     @GetMapping("/getPersons")
     public List<Person> getPersonsData(){
+
+
         return dbService.getPersonsData();
     }
 
     @PostMapping("/addPerson")
-    public int addPerson(@RequestBody Person person){
+    public int addPerson(@RequestBody Person person) throws CustomException {
         return dbService.addPerson(person);
     }
 }

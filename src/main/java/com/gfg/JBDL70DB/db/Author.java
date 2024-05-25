@@ -10,6 +10,7 @@ import org.hibernate.annotations.GenericGenerator;
 @ToString
 @Data
 @Builder
+@Cacheable
 public class Author {
 
 //    @Id

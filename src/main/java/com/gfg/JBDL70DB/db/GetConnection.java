@@ -27,15 +27,15 @@ public class GetConnection {
         }
     }
 
-    @Bean
-    public DataSource dataSource (){
-        DataSource source = DataSourceBuilder.create().
-                url("jdbc:mysql://localhost:3306/JBDL_70_DB").
-                username("root").
-                password("rootroot").
-                build();
-        return source;
-    }
+//    @Bean
+//    public DataSource dataSource (){
+//        DataSource source = DataSourceBuilder.create().
+//                url("jdbc:mysql://localhost:3306/JBDL_70_DB").
+//                username("root").
+//                password("rootroot").
+//                build();
+//        return source;
+//    }
 
 
 }
